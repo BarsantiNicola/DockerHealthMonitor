@@ -31,7 +31,7 @@ interface can be found at:
  Also the rest interface of a testing service already deployed on a cluster of five machines can be reached at
  
   ```html
-	http://172.16.3.167:8080/healthmonitoring   [UNIPI VPN Connection required]
+	http://172.16.3.167:8080/healthmonitor  [UNIPI VPN Connection required]
  ```
 
 Uninstall
