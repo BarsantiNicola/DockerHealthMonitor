@@ -40,9 +40,9 @@ Uninstall
 
 To uninstall the service you can use the uninstall file present into the repository.
 
-```bash
-       ./DockerHealthMonitorService/uninstaller.sh 
-```
+ ```bash
+	./DockerHealthMonitorService/uninstaller.sh 
+ ```
  
  It will ask you for the ip address of the installation machine and its
 root password. The uninstall will delete also all the service components deployed on all the managed cloud machines but it will not uninstall the python libraries
