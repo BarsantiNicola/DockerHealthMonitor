@@ -32,6 +32,12 @@ interface can be found at:
 Uninstall
 -----
 
-To uninstall the service you can use the uninstall file present into the repository. It will ask you for the ip address of the installation machine and its
+To uninstall the service you can use the uninstall file present into the repository.
+
+```bash
+	./DockerHealthMonitorService/uninstaller.sh 
+ ```
+ 
+ It will ask you for the ip address of the installation machine and its
 root password. The uninstall will delete also all the service components deployed on all the managed cloud machines but it will not uninstall the python libraries
 and the elements used(rabbitMQ, python3) in order to not risk to eventually compromise other system application
