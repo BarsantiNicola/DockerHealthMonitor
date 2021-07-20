@@ -28,6 +28,11 @@ interface can be found at:
  ```html
 	http://172.16.3.167:800   [UNIPI VPN Connection required]
  ```
+ Also the rest interface of a testing service already deployed on a cluster of five machines can be reached at
+ 
+  ```html
+	http://172.16.3.167:8080/healthmonitoring   [UNIPI VPN Connection required]
+ ```
 
 Uninstall
 -----
@@ -35,8 +40,8 @@ Uninstall
 To uninstall the service you can use the uninstall file present into the repository.
 
 ```bash
-	./DockerHealthMonitorService/uninstaller.sh 
- ```
+       ./DockerHealthMonitorService/uninstaller.sh 
+```
  
  It will ask you for the ip address of the installation machine and its
 root password. The uninstall will delete also all the service components deployed on all the managed cloud machines but it will not uninstall the python libraries
